@@ -3,12 +3,24 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-.nav-bar {
+.nav {
   z-index: 1;
+  position: absolute;
   display: flex;
-  justify-content: space-evenly;
-  background: rgba(255,255,255,0.9);
+  justify-content: center;
+  left:0;
+  right:0;
+  margin-left:auto;
+  margin-right:auto;
+  background: transparent;
+  color: white;
 }
+
+.link {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .section {
   position: relative;
   margin: 0;
@@ -68,6 +80,12 @@ body {
 
 #oldcomp {
   box-shadow: 1px 1px 1px black;
+}
+
+.portfolio {
+  background: black;
+  width: 1200px;
+  margin: auto;
 }
 
 
