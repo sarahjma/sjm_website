@@ -1,0 +1,47 @@
+#navbar {
+  z-index: 1;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  left:0;
+  right:0;
+/*  margin-left:auto;
+  margin-right:auto;
+  margin: auto;
+  width: auto;
+  background: transparent;
+  color: white;*/
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+li {
+/*  display: inline;*/
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-right: 50px;
+}
+
+.sticky + .content {
+/*  padding-top: 60px;
+}*/

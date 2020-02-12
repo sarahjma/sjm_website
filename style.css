@@ -1,85 +1,10 @@
+@import "banner.css";
+@import "navbar.css";
+@import "about.css";
+
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-}
-
-.nav {
-  z-index: 1;
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  left:0;
-  right:0;
-  margin-left:auto;
-  margin-right:auto;
-  background: transparent;
-  color: white;
-}
-
-.link {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.section {
-  position: relative;
-  margin: 0;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-}
-
-.landingtitle {
-  z-index: 1;
-  text-align: center;
-  font-size: 2.5rem;
-  color: white;
-  padding: 20px;
-}
-
-.landingtitle h1 {
-  margin: 10px;
-}
-
-.landingtitle p {
-  margin: 10px;
-}
-
-.video-container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: black;
-  width: 100%;
-  height: 100vh;
-  opacity: 0.35;
-}
-
-.about {
-  width: 1200px;
-  margin: 150px auto;
-  display: flex;
-  align-items: center;
-}
-
-#about-content{
-  margin-left: 100px;
-  font-size: 1.5rem;
-}
-
-
-#oldcomp {
-  box-shadow: 1px 1px 1px black;
 }
 
 .portfolio {
